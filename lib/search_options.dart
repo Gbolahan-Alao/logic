@@ -43,7 +43,7 @@ class _SearchOptionPageState extends State<SearchOptionPage> {
         TextButton(
           style: TextButton.styleFrom(
               minimumSize: const Size(200, 70),
-              backgroundColor: Color.fromARGB(190, 0, 0, 0),
+              backgroundColor: const Color.fromARGB(190, 0, 0, 0),
               textStyle: const TextStyle(fontSize: 25)),
           onPressed: () {
             Navigator.push(
@@ -63,19 +63,3 @@ class _SearchOptionPageState extends State<SearchOptionPage> {
 }
 
 
-// SizedBox(
-//           width: 200,
-//           height: 200,
-//           child: Text(
-//             'Hello, world!',
-//             style: TextStyle(fontSize: 10, color: Colors.white),
-//           ),
-//         ),
-//         SizedBox(
-//           width: 200,
-//           height: 200,
-//           child: Text(
-//             'Hello, world!',
-//             style: TextStyle(fontSize: 10, color: Colors.white),
-//           ),
-//         )
